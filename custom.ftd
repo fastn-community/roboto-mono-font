@@ -1,0 +1,283 @@
+-- import: fastn-community.github.io/roboto-mono-font/assets as roboto-mono-assets
+-- import: fifthtry.github.io/package-doc/doc as pd
+-- import: fifthtry.github.io/package-doc/forest-theme as ds
+-- import: fifthtry.github.io/package-doc/footer
+
+
+
+
+
+
+
+-- ds.page: 
+show-footer: true
+site-name: `roboto-mono-font`
+
+-- ds.page.footer:
+
+-- footer.fastn-footer:
+
+-- end: ds.page.footer
+
+-- pd.package: FTD roboto-mono package
+name: fastn-community.github.io/roboto-mono-font
+
+This FTD font `roboto-mono` package is for your ftd web projects. To Use this
+roboto-mono inside `FTD` project follow below instructions.
+
+-- ds.h3: How to use roboto-mono?
+
+-- ds.code: Add this to your FASTN.ftd
+lang: ftd
+
+\-- fastn.dependency: fastn-community.github.io/roboto-mono-font
+
+-- ds.markdown: 
+
+After adding roboto-mono dependency inside you `FASTN.ftd` file, You need to add
+roboto-mono assets and import it inside you `ftd` file where you are using this
+font for your custom font types. To include roboto-mono into your `ftd` file
+follow below instructions.
+
+-- ds.code:
+lang: ftd
+
+\-- import: fastn-community.github.io/roboto-mono-font/assets as roboto-mono-assets
+
+
+-- ds.h3: How to create a custom roboto-mono type? 
+
+-- ds.markdown: 
+
+How to use `ftd.type` to create a custom font `types` using roboto-mono? 
+
+We don't recommend creating custom types. We recommend to use 
+our [roboto-mono-typography](https://fastn-community.github.io/roboto-mono-typography)
+
+If you're using [roboto-mono-typography](https://fastn-community.github.io/roboto-mono-typography) 
+and still your designer has introduced new font size which is not included or 
+part of our [roboto-mono-typography](https://fastn-community.github.io/roboto-mono-typography) 
+then only define custom types. 
+
+We hope you shouldn't need to define a custom type.
+
+Below is an example of creating a custom `ftd.type` using roboto-mono.
+
+-- ds.rendered:
+
+-- ds.rendered.input:
+
+\-- ftd.type roboto-mono-size-12-desktop:
+size.px: 12
+weight: 400
+font-family: $roboto-mono-assets.fonts.Mono
+
+
+\-- ftd.type roboto-mono-size-12-mobile:
+size.px: 12
+weight: 400
+font-family: $roboto-mono-assets.fonts.Mono
+
+\-- ftd.responsive-type roboto-mono-size-12-400:
+desktop: $roboto-mono-size-12-desktop
+mobile: $roboto-mono-size-12-mobile
+
+\-- ftd.text: 
+role: $roboto-mono-size-12-400
+color: $inherited.colors.text-strong
+
+`font-size: 12px, font-weight: 400` 
+
+👉 The quick brown fox jumps over the lazy dog 
+
+-- ds.rendered.output:
+
+-- ftd.text: 
+role: $roboto-mono-size-12-400
+color: $inherited.colors.text-strong
+
+`font-size: 12px, font-weight: 400` 
+
+👉 The quick brown fox jumps over the lazy dog 
+
+-- end: ds.rendered.output
+
+-- end: ds.rendered
+
+-- end: ds.page
+
+
+
+
+
+
+
+
+
+
+-- ftd.type roboto-mono-size-12-desktop:
+size.px: 12
+weight: 400
+font-family: $roboto-mono-assets.fonts.Mono
+
+
+-- ftd.type roboto-mono-size-12-mobile:
+size.px: 12
+weight: 400
+font-family: $roboto-mono-assets.fonts.Mono
+
+-- ftd.responsive-type roboto-mono-size-12-400:
+desktop: $roboto-mono-size-12-desktop
+mobile: $roboto-mono-size-12-mobile
+
+
+
+
+
+-- ftd.type roboto-mono-size-12-500-desktop:
+size.px: 12
+weight: 500
+font-family: $roboto-mono-assets.fonts.Mono
+
+
+-- ftd.type roboto-mono-size-12-500-mobile:
+size.px: 12
+weight: 500
+font-family: $roboto-mono-assets.fonts.Mono
+
+-- ftd.responsive-type roboto-mono-size-12-500:
+desktop: $roboto-mono-size-12-500-desktop
+mobile: $roboto-mono-size-12-500-mobile
+
+
+
+
+
+-- ftd.type roboto-mono-size-12-800-desktop:
+size.px: 12
+weight: 800
+font-family: $roboto-mono-assets.fonts.Mono
+
+
+-- ftd.type roboto-mono-size-12-800-mobile:
+size.px: 12
+weight: 800
+font-family: $roboto-mono-assets.fonts.Mono
+
+-- ftd.responsive-type roboto-mono-size-12-800:
+desktop: $roboto-mono-size-12-800-desktop
+mobile: $roboto-mono-size-12-800-mobile
+
+
+
+
+
+-- ftd.type roboto-mono-size-18-desktop:
+size.px: 18
+weight: 400
+font-family: $roboto-mono-assets.fonts.Mono
+
+
+-- ftd.type roboto-mono-size-18-mobile:
+size.px: 18
+weight: 400
+font-family: $roboto-mono-assets.fonts.Mono
+
+-- ftd.responsive-type roboto-mono-size-18-400:
+desktop: $roboto-mono-size-18-desktop
+mobile: $roboto-mono-size-18-mobile
+
+
+
+
+
+-- ftd.type roboto-mono-size-18-500-desktop:
+size.px: 18
+weight: 500
+font-family: $roboto-mono-assets.fonts.Mono
+
+
+-- ftd.type roboto-mono-size-18-500-mobile:
+size.px: 18
+weight: 500
+font-family: $roboto-mono-assets.fonts.Mono
+
+-- ftd.responsive-type roboto-mono-size-18-500:
+desktop: $roboto-mono-size-18-500-desktop
+mobile: $roboto-mono-size-18-500-mobile
+
+
+
+
+
+-- ftd.type roboto-mono-size-18-800-desktop:
+size.px: 18
+weight: 800
+font-family: $roboto-mono-assets.fonts.Mono
+
+
+-- ftd.type roboto-mono-size-18-800-mobile:
+size.px: 18
+weight: 800
+font-family: $roboto-mono-assets.fonts.Mono
+
+-- ftd.responsive-type roboto-mono-size-18-800:
+desktop: $roboto-mono-size-18-800-desktop
+mobile: $roboto-mono-size-18-800-mobile
+
+
+
+
+
+-- ftd.type roboto-mono-size-48-desktop:
+size.px: 48
+weight: 400
+font-family: $roboto-mono-assets.fonts.Mono
+
+
+-- ftd.type roboto-mono-size-48-mobile:
+size.px: 48
+weight: 400
+font-family: $roboto-mono-assets.fonts.Mono
+
+-- ftd.responsive-type roboto-mono-size-48-400:
+desktop: $roboto-mono-size-48-desktop
+mobile: $roboto-mono-size-48-mobile
+
+
+
+
+
+-- ftd.type roboto-mono-size-48-500-desktop:
+size.px: 48
+weight: 500
+font-family: $roboto-mono-assets.fonts.Mono
+
+
+-- ftd.type roboto-mono-size-48-500-mobile:
+size.px: 48
+weight: 500
+font-family: $roboto-mono-assets.fonts.Mono
+
+-- ftd.responsive-type roboto-mono-size-48-500:
+desktop: $roboto-mono-size-48-500-desktop
+mobile: $roboto-mono-size-48-500-mobile
+
+
+
+
+
+-- ftd.type roboto-mono-size-48-800-desktop:
+size.px: 48
+weight: 800
+font-family: $roboto-mono-assets.fonts.Mono
+
+
+-- ftd.type roboto-mono-size-48-800-mobile:
+size.px: 48
+weight: 800
+font-family: $roboto-mono-assets.fonts.Mono
+
+-- ftd.responsive-type roboto-mono-size-48-800:
+desktop: $roboto-mono-size-48-800-desktop
+mobile: $roboto-mono-size-48-800-mobile

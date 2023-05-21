@@ -1,6 +1,6 @@
-# Roboto Mono: FPM Font Package
+# Roboto Mono: FASTN Font Package
 
-This repository contains a [fpm font package](https://fpm.dev/featured/fonts/) containing [Google Font: 
+This repository contains a [FASTN font package](https://fastn.com/featured/fonts-typography/) containing [Google Font: 
 Roboto Mono](https://fonts.google.com/specimen/Roboto+Mono/about?query=roboto).
 
 Roboto Mono is a monospaced addition to the Roboto type family. Like the other
@@ -9,13 +9,15 @@ screens across a wide variety of devices and reading environments.
 
 Designers: Christian Robertson, Principal design
 
-## How To Use This Font In Your FPM Package:
+## How To Use This Font In Your FASTN Package:
 
 [Read the docs and demo](https://fastn-community.github.io/roboto-mono-font).
 
+Also, check [roboto-mono-typography](https://fastn-community.github.io/roboto-mono-typography/)
+
 ## 👀 Want to learn more?
 
-Feel free to check [our documentation](https://fpm.dev/) or jump into our
+Feel free to check [our documentation](https://fastn.com/) or jump into our
 [FifthTry Discord server](https://discord.gg/bucrdvptYd).
 
 ## License
